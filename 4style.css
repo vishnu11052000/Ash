@@ -1,0 +1,77 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins",sans-serif;
+}
+
+body{ 
+min-height: 100vh;
+background-image: url("pexels-photo-221457.jpeg");
+background-repeat: no-repeat;
+display: flex;
+background-position:center;
+background-size: cover;
+justify-content: center;
+align-items: center;
+}
+
+.section .contact-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+body{
+    background-image:url("New image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-top: 150px; */
+    margin-top: 150px;
+    margin-left:30px;
+    margin-right:30px;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 10px;
+
+}
+
+.r_c2_r1{
+    display: flex;
+    
+}
+
+.r_c2 h2{
+    padding:10px;
+    text-align: center;
+    font-weight: 900px;
+    font-size: 30px;
+}
+.r_c2_r1 form{
+    padding-left: 30px;
+}
+
+.r_c2_r2 form{
+    padding: 35px;
+}
+
+.r_c1{
+    padding: 80px;
+    /* background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 10px; */
+}
+
+.r_c1 i{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+
